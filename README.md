@@ -18,7 +18,7 @@ A full-stack task management application built with **Laravel 13**, **Blade**, a
 ## Features
 
 - Create, edit, and delete tasks
-- Toggle task status between `Pending`, `In Progress`, and `Completed`
+- Toggle task status between `Pending` or `In Progress` to `Completed`
 - Filter tasks by status, priority, and category
 - Search tasks by title or description
 - Sort tasks by date, priority, title, or status
@@ -289,9 +289,3 @@ composer test
 # or
 php artisan test
 ```
-
----
-
-## License
-
-This project is open-sourced under the [MIT license](https://opensource.org/licenses/MIT).
